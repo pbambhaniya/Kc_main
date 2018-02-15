@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">KC</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_staff_drawer">StaffDrawerActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="basetype">
+        <item>Select Base Type</item>
+        <item>Fix</item>
+        <item>Daily Base Type</item>
+    </string-array>
+
+
+    <string name="Total_Project">ટોટલ પ્રોજેક્ટ :-</string>
+    <string name="Total_Vehicle">ટોટલ વાહનો :-</string>
+    <string name="Total_Employee">ટોટલ કામદારો :-</string>
+    <string name="Toatl_Company">ટોટલ  કંપનીઓ :-</string>
+    <string name="Banko">બેંકો :-</string>
+    <string name="Kc_general_expense">કેસી નો જનરલ ખર્ચ :-</string>
+    <string name="Site_general_expense">સાઇટ નો જનરલ ખર્ચ :-</string>
+    <string name="vehicle_general_expense">વાહન નો જનરલ ખર્ચ :-</string>
+
+    //bank //
+    <string name="Bank_name">બેંક નું નામ :-</string>
+    <string name="ifsc_code">આઇ.એફ.એસ.સી કોડ :-</string>
+    <string name="branch_name">શાખા નું નામ :-</string>
+
+    //project return//
+    <string name="site_sort_name">સાઇટ નું નામ :-</string>
+    <string name="SD">એસ.ડી. :-</string>
+    <string name="TDS">ટી.ડી.એસ. :-</string>
+    <string name="FMG">એફ.એમ.જી. :- </string>
+
+    //project item//
+    <string name="Name_of_work">કામ નું નામ:-</string>
+    <string name="Location">સ્થળ :-</string>
+
+    //project detail
+    <string name="budget">બજેટ :-</string>
+    <string name="Start_Date">શરૂઆત ની તારીખ :-</string>
+    <string name="deposite">જમા કરાવવું :-</string>
+    <string name="End_Date">અંતિમ તારીખ :-</string>
+
+    //company item//
+    <string name="Mobile_no">મોબાઈલ નંબર :-</string>
+
+    //general expense
+    <string name="Detail">વિગત :-</string>
+    <string name="Amount">રકમ :-</string>
+
+    //company
+    <string name="com_name">કંપની નું નામ :-</string>
+    <string name="Project_name">પ્રોજેક્ટ નું નામ :-</string>
+
+    //company pay
+    <string name="payment_info">ચુકવણીની માહિતી :-</string>
+    <string name="payment_type">ચુકવણીનો પ્રકાર :-</string>
+    <string name="cheque_no">ચેક નંબર :-</string>
+
+    <string name="material_name">મટીરીઅલ નું નામ :-</string>
+    <string name="challon_no">ચલણ નંબર :-</string>
+    <string name="challon_imge">ચલણ ફોટો :-</string>
+
+    <string name="Amount_detail">ચુકવણી ની વિગત</string>
+    <string name="site_exp_detail">સાઇટ ના ખર્ચ ની વિગત :-</string>
+
+    <string name="vehicle_no">વાહન નો નંબર :-</string>
+    <string name="vehicle_type">વાહન નો પ્રકાર:-</string>
+    <string name="vehicle_exp_detail">વાહન ના ખર્ચ ની વિગત :-</string>
+    <string name="vehicle_name">વાહન નું નામ :-</string>
+
+    <string name="driver_name">ડ્રાઈવર નું નામ :-</string>
+    <string name="load_com_name">ભરેલી કંપની નું નામ:- </string>
+    <string name="empty_com_name">કયાંથી ખાલી કરેલ :-</string>
+
+    <string name="load_amount">ભરેલી રકમ :-</string>
+    <string name="empty_amount">ખાલી કરેલી રકમ :-</string>
+
+    <string name="debit_amount">ઉધાર રકમ :-</string>
+
+    <string name="transport_type">ચુકવણીનો પ્રકાર :-</string>
+    <string name="Work_type">કામ નો પ્રકાર :-</string>
+
+    <string name="Sallry_type">પગાર નો પ્રકાર :-</string>
+    <string name="Sallry">પગાર :-</string>
+    <string name="Name">નામ :- </string>
+    <string name="Password">પાસવર્ડ :-</string>
+
+    <string name="Profile_img">પ્રોફાઇલ ફોટો:-</string>
+    <string name="Proof_img">સાબિતી ફોટો :-</string>
+    <string name="Staff_name">સ્ટાફ નામ :-</string>
+    <string name="Date">તારીખ :-</string>
+    <string name="Amount_date">રકમની તારીખ :-</string>
+    <string name="Material_com_name">સામગ્રી ની કંપની નું નામ :-</string>
+    <string name="Total_Expense">કુલ ખર્ચ :-</string>
+
+    <string name="Sr.No">કમાર્ક :-</string>
+    <string name="Site">સાઇટ :-</string>
+    <string name="Material">મટીરીઅલ</string>
+    <string name="Party_name">પાર્ટી નું નામ :-</string>
+    <string name="Total_amount">કુલ રકમ :-</string>
+    <string name="Total_pay_amount">કુલ પગારની રકમ :-</string>
+
+    <string name="Total_Debit_Credit">કુલ જમા/ઉધાર :-</string>
+    <string name="Debit_Credit">જમા/ઉધાર :-</string>
+    <string name="Type">પ્રકાર :-</string>
+    <string name="PAy_amount">ચુકવણી રકમ :-</string>
+    <string name="pay_back_amount">પાછા રકમ ચૂકવવા</string>
+
+    <string name="Cheque_no">ચેક નંબર :-</string>
+    <string name="Project">પ્રોજેક્ટ :-</string>
+    <string name="Total_pay">કુલ પગાર:-</string>
+    <string name="Total_Back">પછી મળેલ રકમ :-</string>
+    <string name="REmainning">બાકી</string>
+    <string name="Attendence">હાજરી :-</string>
+    <string name="Actual_salary">ચોખ્ખો પગાર </string>
+    <string name="Pay_Salary">પગાર ચુકવણી </string>
+    <string name="ACtual_pay_salary">ચોખ્ખી પગાર ચુકવણી </string>
+    <string name="Status">સ્થિતિ </string>
+    <string name="BASe_Type">આધાર પ્રકાર</string>
+    <string name="EXpense_detail">ખર્ચ ની વિગત </string>
+    <string name="EXpense_date">ખર્ચ ની તારીખ </string>
+    <string name="Transport">પરિવહન </string>
+    <string name="PAyment">ચુકવણી</string>
+    <string name="Total_remainig_amount">કુલ બાકી રકમ </string>
+    <string name="Total_got_amount">કુલ મળેલી રકમ</string>
+    <string name="ACtual_remaning_amount">વાસ્તવિક બાકી રકમ</string>
+    <string name="remaing_amount">બાકી રકમ</string>
+    <string name="got_amount">મળેલી રકમ</string>
+    <string name="total_present_day">કુલ હાજર દિવસ :-</string>
+    <string name="current_salary">હાલનો પગાર :-</string>
+    <string name="pay_salary">કુલ ચૂકવણી પગાર :-</string>
+    <string name="paid_salary">પગાર ની ચૂકવણી</string>
+
+    <string name="Start_time">શરૂઆત નો ટાઈમ</string>
+    <string name="End_time">અંતિમ ટાઈમ</string>
+    <string name="load_to">કયાંથી ભરેલ </string>
+    <string name="empty_to">ક્યાં ખાલી કરેલ </string>
+    <string name="Profit">નફો </string>
+
+    <string name="bank">બેંક</string>
+    <string name="Project_returns">પ્રોજેક્ટ રિટર્ન્સ</string>
+    <string name="Kc_expense">કેસી નો ખર્ચ </string>
+    <string name="General_Expense">સામાન્ય ખર્ચ</string>
+
+    <string name="Vehicle_Hourly">કલાકદીઠ વાહન</string>
+    <string name="Vehicle_Transport">વાહનનો ટ્રાન્સપોર્ટ</string>
+    <string name="Vehicl_Hourly_Pay">વાહનના કલાક નો ભાવ</string>
+    <string name="Transport_In_Out">ટ્રાન્સપોર્ટ આવક/જાવક</string>
+    <string name="Vehicle_General_EX">વાહન નો સામાન્ય ખર્ચ</string>
+
+    <string name="Material_Type">મટીરીઅલ ના પ્રકાર</string>
+    <string name="Material_Company">મટીરીઅલ ની કંપની </string>
+
+    <string name="Vehicle_Expense">વાહન ખર્ચ નો અહેવાલ</string>
+    <string name="Salary_Statement">પગાર નિવેદન નો અહેવાલ</string>
+    <string name="Attendance_Report">હાજરી નો અહેવાલ</string>
+    <string name="PartyWisePayment">પાર્ટી વાઈસ પેમેન્ટ નો અહેવાલ</string>
+    <string name="SiteWisePAyment">સાઇટ મુજબની ચૂકવણી નો અહેવાલ</string>
+    <string name="KcGenralExpense">કે.સી. જનરલ ખર્ચ નો અહેવાલ</string>
+    <string name="SiteGenaralExpense">સાઇટ નો સામાન્ય ખર્ચ નો અહેવાલ</string>
+    <string name="Project_Return">પ્રોજેક્ટ રીટર્ન નો અહેવાલ</string>
+    <string name="TransportCompany">ટ્રાન્સપોર્ટ કંપની નો અહેવાલ</string>
+    <string name="amount_stff_report">સ્ટાફ પાસે ની રકમ નો અહેવાલ</string>
+    <string name="amount_staff">સ્ટાફ પાસે ની રકમ</string>
+
+    <string name="Select_Name">સિલેક્ટ નામ </string>
+    <string name="Select_project">સિલેક્ટ પ્રોજેક્ટ નામ </string>
+    <string name="Select_Bank">સિલેક્ટ બેંક નું નામ </string>
+    <string name="Select_com_name">સિલેક્ટ કંપની નું નામ</string>
+    <string name="Select_Material_name">સિલેક્ટ મટીરીઅલ નામ </string>
+    <string name="Select_VEhicle_Type">સિલેક્ટ વાહન નો પ્રકાર</string>
+    <string name="SElect_Vehicle_No">સિલેક્ટ વાહન નો નંબર</string>
+    <string name="SElect_Work_type">સિલેક્ટ કામ નો પ્રકાર</string>
+    <string name="Select_payment_type">સિલેક્ટ પૈસા ના પ્રકાર </string>
+
+    <string name="Cash">કેસ</string>
+    <string name="Cheque">ચેક</string>
+    <string name="Staff">સ્ટાફ</string>
+    <string name="Rtgs">આર.ટી.જી.એસ.</string>
+    <string name="Rtgs_id">આર.ટી.જી.એસ. આઇ.ડી</string>
+    <string name="chequeno">ચેક નંબર</string>
+    <string name="Company">કંપની</string>
+    <string name="Company_Import">કંપની માંથી આયાત કરો</string>
+    <string name="Company_pay">કંપની ને ચુકવણી કરો</string>
+    <string name="Vehicle_detail">વાહન ની માહિતી </string>
+    <string name="detail">માહિતી :-</string>
+
+    <string name="Amount_toStaff_detail">સ્ટાફ ના રકમ ની માહિતી </string>
+    <string name="Bank_Detail">બેંક ની માહિતી </string>
+    <string name="Company_detail">કંપની ની માહિતી </string>
+    <string name="Company_Import_detail">કંપની માંથી આયાત ની માહિતી </string>
+
+    <string name="Company_pay_detail">કંપની ને ચુકવણી ની માહિતી </string>
+    <string name="Kc_general_ex_detail">કે.સી. જનરલ ખર્ચ ની માહિતી </string>
+    <string name="Material_com_detail">મટીરીયલ ની કંપની ની માહિતી </string>
+    <string name="Material_detail">મટીરીયલ ની માહિતી</string>
+    <string name="Project_detail">પ્રોજેક્ટ ની માહિતી</string>
+    <string name="Project_Return_detail">પ્રોજેક્ટ રીટર્ન ની માહિતી</string>
+    <string name="Site_general_ex_detail">સાઇટ નો સામાન્ય ખર્ચ ની માહિતી</string>
+    <string name="Staff_detail">સ્ટાફ ની માહિતી</string>
+    <string name="vehicle_general_ex_detail">વાહન નો જનરલ ખર્ચ ની માહિતી</string>
+    <string name="Vehicle_hourly_detail">કલાકદીઠ વાહન ની માહિતી</string>
+    <string name="Vehicle_Transport_detail">વાહનનો ટ્રાન્સપોર્ટ ની માહિતી</string>
+    <string name="Vehicle_type_detail">વાહન ના પ્રકાર ની માહિતી </string>
+    <string name="Worktype_detail">કામ ના પ્રકાર ની માહિતી </string>
+
+    <string name="Vehicle">વાહન</string>
+    <string name="Staff_report">સ્ટાફ ના બધા રિપોર્ટ </string>
+    <string name="Report">રિપોર્ટ</string>
+    <string name="Home">હોમ </string>
+
+    <string name="Party_wise_payment">કંપની ને ચુકવેલી રકમ</string>
+    <string name="Payment_detil">ચુકવણીની વિગત</string>
+    <string name="Project_general_ex_detail">પ્રોજેક્ટ નો જનરલ ખર્ચ ની માહિતી</string>
+    <string name="Project_return_report">પ્રોજેક્ટ રીટર્ન અહેવાલ</string>
+    <string name="Salary_Report">પગાર નો અહેવાલ</string>
+    <string name="Attendense_report">હાજરી નો અહેવાલ</string>
+    <string name="Site_exp_report">સાઇટ ખર્ચ નો અહેવાલ</string>
+    <string name="Site_general_ex_report"> સાઇટ નો સામાન્ય ખર્ચ નો અહેવાલ</string>
+    <string name="Transport_com_report">ટ્રાન્સપોર્ટ કંપની નો અહેવાલ</string>
+
+
+    <string name="weight_type">વજન નો પ્રકાર:-</string>
+    <string name="weight_bag">વજનન ની બેગ:-</string>
+    <string name="price_ton">ભાવ :-</string>
+    <string name="total_price_ton">કુલ ભાવ :-</string>
+
+    <string name="In">આવક</string>
+    <string name="Out">જાવક</string>
+    <string name="view">જુઓ</string>
+
+    <string name="Staff_Site_ex_report">સ્ટાફ માં સાઇટ નો અહેવાલ</string>
+    <string name="Staff_vehicle_ex_report">સ્ટાફ માં વાહન નો અહેવાલ</string>
+
+    <string name="Total_ex">ટોટલ ખર્ચ</string>
+    <string name="Total_AMount">ટોટલ પૈસા</string>
+
+    <string name="Enter_sallary">પગાર નાખો</string>
+
+    <string name="Select_Weight_unit">સિલેક્ટ વજન નગ</string>
+
+    <string name="date">શરૂઆતની તારીખ</string>
+
+    <string name="Exp_type">ખર્ચ નો પ્રકાર:-</string>
+    <string name="Total_hour">ટોટલ સમય </string>
+    <string name="Total_amt">કુલ રકમ</string>
+
+    <string name="Total_hour_pay">કલાક નો ભાવ</string>
+
+    <string name="Load_date">લોડ કરેલ તારીખ</string>
+    <string name="Empty_date">ખાલી કરેલ તારીખ</string>
+    <string name="Load_Challon_no">લોડ કરેલ ચલણ નં.</string>
+    <string name="Load_weight">લોડ કરેલ વજન ટન માં  </string>
+    <string name="Load_weight_type">લોડ કરેલ ટન દીઠ ભાવ</string>
+    <string name="Total_load_amount">ટોટલ લોડ કરેલ રકમ</string>
+    <string name="load_detail">લોડ કરેલ માલ નું વર્ણન</string>
+<string name="Empty_com_name">ખાલી કંપનીનું નામ</string>
+    <string name="Empty_challon_no">ખાલી કરેલ ચલણ નં</string>
+    
+    <string name="Empty_weight">ખાલી કરેલ વજન ટન માં  </string>
+    <string name="Empty_weight_type">ખાલી કરેલ ટન દીઠ ભાવ  </string>
+    <string name="Empty_amount">ટોટલ ખાલી કરેલ રકમ</string>
+    <string name="empty_detail">ખાલી કરેલ માલ નું વર્ણન</string>
+</resources>

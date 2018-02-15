@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_item_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        card_view:cardBackgroundColor="@color/card_list"
+        card_view:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="User Name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/Work_type"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_work_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="WorkType"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/site_sort_name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_sort_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Bank_name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_bank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Bank Name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="@string/payment_type"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_pay_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Salary"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="હોમ" />
+        <item
+            android:id="@+id/generalexpense"
+            android:icon="@drawable/genral_expense"
+            android:title="જનરલ ખરચો  " />
+
+        <item
+            android:id="@+id/staff_report"
+            android:icon="@drawable/list"
+            android:title="સ્ટાફ ના બધા રિપોર્ટ " />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/logout"
+            android:title="બહાર જાહો"  />
+    </group>
+
+
+</menu>

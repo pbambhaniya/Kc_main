@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_company_master"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/com_name"
+        android:paddingLeft="14dp"
+        android:textColor="@color/Text"
+        android:textColorHint="@color/Text"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/v1"
+        style="@style/cus_devider"
+        android:layout_below="@+id/company_name" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/Mobile_no"
+        android:inputType="number"
+        android:maxLength="10"
+        android:paddingLeft="14dp"
+        android:textColor="@color/Text"
+        android:textColorHint="@color/Text"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/v3"
+        style="@style/cus_devider"
+        android:layout_below="@+id/mobile" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_start_dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v3"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rel_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_start_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/img_start_date"
+                android:background="@android:color/transparent"
+                android:hint="@string/Start_Date"
+                android:paddingLeft="10dp"
+                android:textColor="@color/Text"
+                android:textColorHint="@color/Text"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/img_start_date"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/date" />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/cus_devider"
+            android:layout_below="@+id/rel_date"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/add_company_master"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/update_company_master"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

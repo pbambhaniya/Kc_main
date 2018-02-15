@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+ >
+
+
+    <ListView
+        android:divider="@null"
+        android:id="@+id/bank_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <android.support.design.widget.FloatingActionButton
+        style="@style/btn_fab"
+        app:backgroundTint="@color/color_fab"
+        android:id="@+id/fab_add"/>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_company"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_company_asset_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/material_name"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Text"
+        android:textColorHint="@color/Text"
+        android:textSize="18dp" />
+
+    <View style="@style/cus_devider" />
+
+    <Spinner
+        android:id="@+id/sp_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Text"
+        android:gravity="center"
+        android:popupBackground="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+
+    <View
+        style="@style/cus_devider"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/add_company"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="ADD"
+            android:textColor="@color/Text"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/update_company"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/delete_company"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/add_company"
+            android:layout_alignBottom="@+id/add_company"
+            android:layout_alignLeft="@+id/add_company"
+            android:layout_alignStart="@+id/add_company"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="Delete"
+            android:textColor="@color/Text"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

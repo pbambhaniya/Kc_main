@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="હોમ " />
+
+        <item
+            android:id="@+id/add_staff"
+            android:icon="@drawable/staff"
+            android:title="સ્ટાફ" />
+        <item
+            android:id="@+id/add_project"
+            android:icon="@drawable/project"
+            android:title="પ્રોજેક્ટ" />
+        <item
+            android:id="@+id/add_assets"
+            android:icon="@drawable/material"
+            android:title="મટીરીયલ" />
+
+        <item
+            android:id="@+id/add_company"
+            android:icon="@drawable/company"
+            android:title="કંપની" />
+        <item
+            android:id="@+id/add_general_expense"
+            android:icon="@drawable/genral_expense"
+            android:title="સામાન્ય ખર્ચ" />
+
+
+        <item
+            android:id="@+id/menu_vehicle"
+            android:icon="@drawable/vehicle"
+            android:title="વાહન" />
+
+
+        <!--<item-->
+        <!--android:id="@+id/site"-->
+        <!--android:icon="@mipmap/sitexpence"-->
+        <!--android:title="Site" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/create_manage"-->
+        <!--android:icon="@mipmap/addasset"-->
+        <!--android:title="Manage Income" />-->
+
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/list"
+            android:title="અહેવાલો" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/logout"
+            android:title="બહાર જાહો" />
+    </group>
+
+
+</menu>

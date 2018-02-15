@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_bank_details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_serial_no"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Sr.No"
+            android:textColor="@color/Text" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></View>
+
+        <TextView
+            android:id="@+id/txt_project_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Project"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_start_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/Start_Date"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_budget"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/budget"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_deposite"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/deposite"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_sd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/SD"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_fmd"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/FMG"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+
+            android:visibility="gone"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_tds"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:maxWidth="300dp"
+            android:minWidth="100dp"
+            android:text="@string/TDS"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_total_pay"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Total_pay"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_total_back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Total_Back"
+            android:textColor="@color/Text" />
+
+        <LinearLayout
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Text"
+            android:visibility="gone"></LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_remaining"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/REmainning"
+            android:textColor="@color/Text" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.multipz.kc">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".util.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.StaffDrawerActivity"
+            android:label="@string/title_activity_staff_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Project.Banks" />
+        <activity android:name=".Details.BankDetailActivity" />
+        <activity android:name=".Activity.AddBankActivity" />
+        <activity android:name=".Project.Projects" />
+        <activity android:name=".Details.ProjectDetailActivity" />
+        <activity android:name=".Activity.AddProjectActivity" />
+        <activity android:name=".Vehicle.VehicleType" />
+        <activity android:name=".Details.VehicleTypeDetailActivity" />
+        <activity android:name=".Activity.AddVehicleTypeActivity" />
+        <activity android:name=".Vehicle.VehicleList" />
+        <activity android:name=".Activity.AddVehicleDetailActivity" />
+        <activity android:name=".Asset.MaterialType" />
+        <activity android:name=".Details.MaterialDetailActivity" />
+        <activity android:name=".Activity.AddMaterialActivity" />
+        <activity android:name=".Asset.AssetCompany" />
+        <activity android:name=".Details.MaterialCompanyDetailActivity" />
+        <activity android:name=".Activity.AddMaterialCompanyActivity" />
+        <activity android:name=".Staff.Worktype" />
+        <activity android:name=".Activity.AddWorkTypeActivity" />
+        <activity android:name=".Details.WorkTypeDetailActivity" />
+        <activity android:name=".Company.Company" />
+        <activity android:name=".Activity.AddCompanyActivity" />
+        <activity android:name=".Details.CompanyDetailActivity" />
+        <activity android:name=".Project.ProjectReturns" />
+        <activity android:name=".Details.ProjectReturnDetailActivity" />
+        <activity android:name=".Activity.AddProjectReturnActivity" />
+        <activity android:name=".GeneralExpense.KCExpense" />
+        <activity android:name=".Activity.AddKCExpenseActivity" />
+        <activity android:name=".Details.KCExpenseDetailActivity" />
+        <activity android:name=".GeneralExpense.SiteGeneralExpense" />
+        <activity android:name=".Activity.AddSiteGeneralExpenseActivity" />
+        <activity android:name=".Details.SiteGeneralExpenseDetailActivity" />
+        <activity android:name=".GeneralExpense.VehicleGeneralExpense" />
+        <activity android:name=".Activity.AddVehicleGeneralExpenseActivity" />
+        <activity android:name=".Details.VehicleGeneralEXpenseDetailActivity" />
+        <activity android:name=".Company.CompanyPay" />
+        <activity android:name=".Activity.AddCompanyPayActivity" />
+        <activity android:name=".Details.CompanyPayDetailActivity" />
+        <activity android:name=".Company.CompanyImport" />
+        <activity android:name=".Activity.AddCompanyImportActivity" />
+        <activity android:name=".Details.CompanyImportDetailActivity" />
+        <activity android:name=".Vehicle.VehicleHourly" />
+        <activity android:name=".Activity.AddVehicleHourlyActivity" />
+        <activity android:name=".Details.VehicleListDetailActivity" />
+        <activity android:name=".Vehicle.VehicleTransport" />
+        <activity android:name=".Activity.AddVehicleTransportActivity" />
+        <activity android:name=".Details.VehicleTransportDetailActivity" />
+        <activity android:name=".Details.VehicleHourlyDetailActivity" />
+        <activity android:name=".Staff.Staffs" />
+        <activity android:name=".Activity.AddStaffsActivity" />
+        <activity android:name=".Details.StaffDetailActivity" />
+        <activity android:name=".Staff.AmountStaff" />
+        <activity android:name=".Activity.AddAmountStaffActivity" />
+        <activity android:name=".Details.AmountStaffDetailActivity" />
+        <activity android:name=".Report.SiteExpenseReport" />
+        <activity android:name=".Report.VehicleExReport" />
+        <activity android:name=".Report.VehicleTransportReports" />
+        <activity android:name=".Report.VehicleTransportReport" />
+        <activity android:name=".ManageStaffAttendance.StaffAttendanceActivity" />
+        <activity android:name=".ManageStaffAttendance.showStaffAttendanceActivity" />
+        <activity android:name=".Report.SalaryStatementActivity" />
+        <activity android:name=".Report.ShowAttendanceReportActivity" />
+        <activity android:name=".Report.PartywisepaymentActivity" />
+        <activity android:name=".Report.PartyItemActivty" />
+        <activity android:name=".Report.SiteWisePaymentActivity" />
+        <activity android:name=".Vehicle.VehicleHourlyPay" />
+        <activity android:name=".Report.KcGenralExpActivity" />
+        <activity android:name=".Staff.StaffDebitSalary" />
+        <activity android:name=".Activity.AddStaffDebitSalaryActivity" />
+        <activity android:name=".Report.SiteGenralExpReportActivity" />
+        <activity android:name=".Report.ProjectGeneralExpLIstActivity" />
+        <activity android:name=".Vehicle.Transport_In_out_Activity" />
+        <activity android:name=".Activity.AddTransportInOutActivity" />
+        <activity android:name=".Activity.AddVehicleHourlyPayActivity" />
+        <activity android:name=".Report.VehicleExpenseItemActivity" />
+        <activity android:name=".Report.ProjectReturnReport" />
+        <activity android:name=".Report.VehicleTransportReportsItemActivity" />
+        <activity android:name=".Report.VehicleHourlyReport" />
+        <activity android:name=".Report.VehicleRemainingDetailReportActivity" />
+        <activity android:name=".Report.VehicleHourlyGotAmtDetailActivity" />
+        <activity android:name=".Report.TransportCompanyModule" />
+        <activity android:name=".Report.TransportDetailActivity" />
+        <activity android:name=".Report.PaymentDetailActivity" />
+        <activity android:name=".StaffReport.StaffSiteExpenseReport" />
+        <activity android:name=".StaffReport.StaffExpenseVehicleReport" />
+        <activity android:name=".Report.ViewSalaryDataActivity" />
+        <activity android:name=".Staff.SalaryPayAcivity" />
+        <activity android:name=".Staff.GetSalaryDataForPaySalary" />
+        <activity android:name=".Details.DisplayImgActivity" />
+        <activity android:name=".Activity.LoadToActivity" />
+    </application>
+
+</manifest>

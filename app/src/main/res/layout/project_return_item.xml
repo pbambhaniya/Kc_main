@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_item_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        card_view:cardBackgroundColor="@color/card_list"
+        card_view:cardPreventCornerOverlap="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="@string/site_sort_name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_sidesortname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Name"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/SD"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_sd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="SD"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.multipz.kc.util.CustText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/FMG"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_fmg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="FMG"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <View style="@style/cus_deviders" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.multipz.kc.util.CustText
+                    android:id="@+id/locations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/TDS"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txt_tds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/locations"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="TDS"
+                    android:textColor="@color/Text"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/img_check"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@+id/txt_location"
+                    android:src="@drawable/img"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
